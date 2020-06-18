@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <!--Author: Kennard Wang-->
+    <title>board.html</title>
+    <meta charset="UTF-8">
+    <script src = "../statics/js/buttonStyle.js"></script>
+    <link rel="stylesheet" href="../statics/css/message.css">
+</head>
+
+<body class = "board">
+    <img class="bgimg" src="../statics/img/bg.png" alt="bg">
+    <br><br>
+    <label class = "title">用户留言<hr></label>
+
+
+    <table class="display" border="4" cellpadding="50%" style="border-left-style:solid;
+    border-bottom-color: transparent; border-right-color: transparent; border-top-color: transparent;">
+
+    {% for i in display reversed %}
+        {% csrf_token %}
+    
+    <tr>
+        <td>
+            <label>{{ i.nickname }}</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>{{ i.time }}</label>
+            <br>
+            <label><pre>{{ i.content }}</pre></label>
+            <br><hr>
+        </td>
+    </tr>
+    
+    {% endfor %}
+
+    </table>
+
+</body>

@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <!--Author: Kennard Wang-->
+    <title>form.html</title>
+    <meta charset="UTF-8">
+    <script src="../statics/js/buttonStyle.js"></script>
+    <link rel="stylesheet" href="../statics/css/message.css">
+</head>
+
+<body class="board">
+    <img class="bgimg" src="../statics/img/bg.png" alt="bg">
+    <br><br>
+    <label class = "title">请写入留言</label>
+
+    <form action="/response/" method="post">
+        {% csrf_token %}
+        <br><br>
+        <input id="nickname" name="nickname" type="text" maxlength="10" placeholder="请输入昵称（必填，10个字以内）">
+        <br><br>
+        <textarea class="messArea" name="mes" id="textArea" cols="80" rows="16" placeholder="请输入留言内容...（必填，用户留言无法主动删除，请谨慎留言，如需删除请联系后台管理员）"></textarea>
+        <br><br><br>
+        <div class="button" style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
+            <input type="submit" id="submit" value="提交" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+            <input type="reset" id="reset" value="清除" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+        </div>
+    </form>
+    
+</body>
