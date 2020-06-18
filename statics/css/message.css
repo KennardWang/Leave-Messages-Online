@@ -1,0 +1,74 @@
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bgimg{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.title{
+    text-align: center;
+    font-size: 10vh;
+    font-family: cursive;
+    color: black;
+    text-shadow: 0 0 10px gray, 0 0 20px white, 0 0 40px black; 
+}
+
+.messArea{
+    width: 70vh;
+    height: 50vh;
+    border: solid 3px;
+    font-size: 3vh;
+    font-family: cursive;
+    background-color: rgba(200,200,200,0.35);
+}
+
+.button input{
+    border: solid 2px;
+    color: black;
+    background-color: rgba(200,200,200,0.35);
+    border-radius: 20%;
+    height: 6vh;
+    width: 30vh;
+    font-size: 4vh;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.display label{
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+tr{
+    border-color: transparent;
+}
+
+#nickname{
+    border: solid 2px;
+    height: 4vh;
+    width: 40vh;
+    font-size: 2vh;
+    font-family: cursive;
+    color: black;
+    background-color: rgba(200,200,200,0.35);
+}
+
+.tips{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+    font-size: 5vh;
+    font-family: cursive;
+}
