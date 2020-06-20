@@ -13,11 +13,9 @@
 5. Input **python manage.py runserver 0.0.0.0:8084** to start service ( just for example, you can use any other free ports as you like )
 6. Enter URL http://127.0.0.1:8084/messageBlock/ to look through the guidance
 ------
-### License  
-+ Copyright©KENNARD_WANG 2020.6.18
-
-  > If you want to make a reference, please give me credit by adding the foregoing license, thanks.
+### License
++ [MIT License](https://github.com/KennardWang/OnlineMessage/blob/master/LICENSE)
 ------
 ### Author
-+ Kennard Wang
++ Kennard Wang ( 2020.6.18 )
 ------
