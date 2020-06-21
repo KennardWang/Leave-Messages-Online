@@ -1,11 +1,10 @@
 # Online Message Module
 ### Module Demo
-+ Form
++ Form  
+![Form](https://kennardwang.github.io/ImageSource/Project/OnlineMessageForm.png)  
 
-![Form](https://kennardwang.github.io/ImageSource/Project/OnlineMessageForm.png)
-+ Board
-
-![Board](https://kennardwang.github.io/ImageSource/Project/OnlineMessageBoard.png)
++ Board  
+![Board](https://kennardwang.github.io/ImageSource/Project/OnlineMessageBoard.png)  
 
 ------
 ### Development Environment
