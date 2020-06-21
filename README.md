@@ -12,7 +12,7 @@
 + Language: **Python 3.7 Anaconda**
 + Framework: **Django 3.0.7**
 + Database: **SQLite3**
-+ IDE: PyCharm 2019.2.5 ( Professional Edition )
++ IDE: **PyCharm 2019.2.5 ( Professional Edition )**
 ------
 ### User Manual
 1. Install Python ( **recommend python 3.6+** )
