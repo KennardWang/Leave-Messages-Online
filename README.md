@@ -16,12 +16,12 @@
 + IDE : **PyCharm 2019.2.5 ( Professional Edition )**
 ------
 ### User Manual
-1. Install Python ( **recommend python 3.6+** )
-2. Install Django ( **recommend version 3.0.7** )
-3. Download zip file to Desktop
-4. Run cmd and enter the root by command `cd Desktop/OnlineMessage-master`
-5. Input `python manage.py runserver 0.0.0.0:8084` to start service ( just for example, you can use any other free ports as you like )
-6. Enter URL http://127.0.0.1:8084/messageBlock/ to look through the guidance
+1. Download and unzip the project
+2. Install Python ( ***recommend Python 3.7 Anaconda*** )
+3. Install Django by `pip install -r requirements.txt` under the root directory or run `InstallLib.bat` directly
+4. At the same root, input `python manage.py runserver 0.0.0.0:8084` to start server ( ***You can use any other free ports as you like*** )
+5. Or you can run `ServerConnect.bat` to start server directly, instead
+6. Enter URL http://127.0.0.1:8084/board/ to look through the guidance ( ***If you use another port, you need to change port number here !*** )
 ------
 ### License
 + [MIT License](https://github.com/KennardWang/OnlineMessage/blob/master/LICENSE)
