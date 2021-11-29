@@ -1,31 +1,46 @@
 # Leave-Message-Online
-### Module Demo
-+ Form  
-![Form](https://kennardwang.github.io/ImageSource/Project/OnlineMessageForm.png)  
 
-+ Board  
-![Board](https://kennardwang.github.io/ImageSource/Project/OnlineMessageBoard.png)  
+> Recently Kennard has learnt about Django, a powerful frontend template written by Python.
+> Kennard decided to design a module for his friends to leave message online, with Django
+> for frontend and SQLite3 for database.
+
+------
+
+### Demo
++ Form
+  
+![Form](https://kennardwang.github.io/ImageSource/Leave-Message-Online/OnlineMessageForm.png)  
+
++ Board
+  
+![Board](https://kennardwang.github.io/ImageSource/Leave-Message-Online/OnlineMessageBoard.png)  
 
 ------
 ### Development Environment
-+ Server : **Intranet**
-+ Language : **Python 3.7 Anaconda**
-+ Framework : **Django 3.0.7**
-+ UI Design : **HTML**, **CSS**, **Javascript**
-+ Database : **SQLite3**
-+ IDE : **PyCharm 2019.2.5 ( Professional Edition )**
+
+|Description|Specification|
+|:---:|:---:|
+|System|Windows 10|
+|Language|Python 3.7 (Anaconda)|
+|Framework|Django 3.2.7|
+|Frontend|HTML, CSS, Javascript|
+|Database|SQLite3|
+|IDE|PyCharm 2019.2.5 ( Professional Edition )|
+
 ------
+
 ### User Manual
-1. Download and unzip the project
-2. Install Python ( ***recommend Python 3.7 Anaconda*** )
-3. Install Django by `pip install -r requirements.txt` under the root directory or run `InstallLib.bat` directly
-4. At the same root, input `python manage.py runserver 0.0.0.0:8084` to start server ( ***You can use any other free ports as you like*** )
-5. Or you can run `ServerConnect.bat` to start server directly, instead
-6. Enter URL http://127.0.0.1:8084/board/ to look through the guidance ( ***If you use another port, you need to change port number here !*** )
+1. Clone the repository by `git clone https://github.com/KennardWang/Leave-Message-Online.git`.
+2. Under the root, install Django by `pip install -r requirements.txt`.
+3. Run the server by `python manage.py runserver 127.0.0.1:8084`.
+4. Visit by http://127.0.0.1:8084/board/ and look through the guideline.
+
 ------
+
 ### License
-+ [MIT License](https://github.com/KennardWang/OnlineMessage/blob/master/LICENSE)
++ [MIT License](https://github.com/KennardWang/Leave-Message-Online/blob/master/LICENSE)
+
 ------
+
 ### Author
 + Kennard Wang ( 2020.6.18 )
-------
