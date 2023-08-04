@@ -16,7 +16,7 @@
 
 <br>
 
-It is a practice project for the author after self-learning Django and SQLite. The purpose is to develop a module for leaving messages online with Django for the frontend and SQLite3 for the database.
+It is a practice project for the author after self-learning Django and SQLite. The purpose is to develop a module for leaving messages online with Django for the frontend and SQLite for the database.
 
 
 
