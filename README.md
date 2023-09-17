@@ -1,9 +1,21 @@
 # Leave-Messages-Online
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/KennardWang/Leave-Messages-Online" />
-  <img src="https://img.shields.io/github/license/KennardWang/Leave-Messages-Online" />
-  <img src="https://img.shields.io/badge/maintenance-No-red" />
+  <img src="https://img.shields.io/github/stars/KennardWang/Leave-Messages-Online?style=for-the-badge&color=FDEE21" />
+  &nbsp;
+  <img src="https://img.shields.io/github/forks/KennardWang/Leave-Messages-Online?style=for-the-badge&color=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white" />
 </div>
 
 <br>
@@ -62,7 +74,7 @@ pip install -r requirements.txt
 
 ## Maintainers
 
-[@KennardWang](https://github.com/KennardWang).
+![badge](https://img.shields.io/badge/maintenance-NO-EF2D5E) [@KennardWang](https://github.com/KennardWang)
 
 
 
@@ -74,4 +86,4 @@ Feel free to [open an issue](https://github.com/KennardWang/Leave-Messages-Onlin
 
 ## License
 
-[MIT](LICENSE) © Kennard Wang. ( 2020.6.18 )
+[![license](https://img.shields.io/github/license/KennardWang/Leave-Messages-Online)](LICENSE) © Kennard Wang ( 2020.6.18 )
