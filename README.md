@@ -70,7 +70,7 @@ It is a practice project for the author after self-learning Django and SQLite. T
 ## Install
 
 ```
-git clone https://github.com/KennardWang/Leave-Message-Online.git
+git clone https://github.com/KennardWang/Leave-Messages-Online.git
 pip install -r requirements.txt
 ```
 
