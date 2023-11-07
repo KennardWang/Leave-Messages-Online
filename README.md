@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  [![description](https://img.shields.io/badge/project-Individual-1F1F1F?style=for-the-badge)](https://github.com/KennardWang/Leave-Messages-Online)
+  [![description](https://img.shields.io/badge/project-Individual-FFB7C5?style=for-the-badge)](https://github.com/KennardWang/Leave-Messages-Online)
   &nbsp;
   [![stars](https://img.shields.io/github/stars/KennardWang/Leave-Messages-Online?style=for-the-badge&color=FDEE21)](https://github.com/KennardWang/Leave-Messages-Online/stargazers)
   &nbsp;
@@ -12,7 +12,7 @@
   
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+  <img src="https://img.shields.io/badge/Python-D5C100?style=for-the-badge&logo=python&logoColor=blue" />
   &nbsp;
   <img src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white" />
   &nbsp;
@@ -26,15 +26,15 @@
   &nbsp;
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyCharm-00FF7F.svg?&style=for-the-badge&logo=PyCharm&logoColor=white" />
 </div>
 
 <br>
 
 <div align=center>
-  <img src="https://kennardwang.github.io/ImageSource/Leave-Message-Online/OnlineMessageForm.png" width="40%" />
+  <img src="https://kennardwang.github.io/Image-Source/Leave-Messages-Online/OnlineMessageForm.png" width="40%" />
   &nbsp;
-  <img src="https://kennardwang.github.io/ImageSource/Leave-Message-Online/OnlineMessageBoard.png" width="40%" />
+  <img src="https://kennardwang.github.io/Image-Source/Leave-Messages-Online/OnlineMessageBoard.png" width="40%" />
 </div>
 
 <br>
@@ -59,7 +59,7 @@ It is a practice project for the author after self-learning Django and SQLite. T
 | <!-- --> | <!-- --> |
 |:---:|:---:|
 |System|Windows 10 x64|
-|Language|Python 3.7 (Anaconda)|
+|Language|Python 3.7|
 |Framework|Django 3.2.7|
 |Frontend|HTML, CSS, Javascript|
 |Database|SQLite3|
